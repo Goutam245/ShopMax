@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ShoppingBag, Facebook, Twitter, Instagram, Youtube, MapPin, Phone, Mail, Clock } from "lucide-react";
-import { Images } from "Gemini_Generated_Image_bgsofvbgsofvbgso.png"
+import { Images } from "public/logo.png"
 
 const quickLinks = [
   { to: "/", label: "Home" },
@@ -26,7 +26,7 @@ export default function Footer() {
           <div>
             <Link to="/" className="flex items-center gap-2 text-primary font-extrabold text-2xl mb-4">
               {/*  */}
-              <img src="Gemini_Generated_Image_bgsofvbgsofvbgso.png" alt="ShopMax Logo" className="h-8 w-8" />
+              <img src="public/logo.png" alt="ShopMax Logo" className="h-8 w-8" />
               <span>ShopMax</span>
             </Link>
             <p className="text-sm text-secondary-foreground/70 mb-6 leading-relaxed">

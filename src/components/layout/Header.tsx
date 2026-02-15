@@ -5,7 +5,7 @@ import { useCart } from "@/contexts/CartContext";
 import { products } from "@/data/products";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Images } from "Gemini_Generated_Image_bgsofvbgsofvbgso.png"
+import { Images } from "public/logo.png"
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -32,7 +32,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 text-primary font-extrabold text-2xl">
-            {/* <ShoppingBag className="h-7 w-7" /> */} <img src="Gemini_Generated_Image_bgsofvbgsofvbgso.png" alt="ShopMax Logo" className="h-8 w-8" />
+            {/* <ShoppingBag className="h-7 w-7" /> */} <img src="public/logo.png" alt="ShopMax Logo" className="h-8 w-8" />
             <span>ShopMax</span>
           </Link>
 

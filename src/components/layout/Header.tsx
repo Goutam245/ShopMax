@@ -5,7 +5,6 @@ import { useCart } from "@/contexts/CartContext";
 import { products } from "@/data/products";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Images } from "public/logo.png"
 
 const navLinks = [
   { to: "/", label: "Home" },

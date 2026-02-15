@@ -26,7 +26,7 @@ export default function Footer() {
           <div>
             <Link to="/" className="flex items-center gap-2 text-primary font-extrabold text-2xl mb-4">
               {/*  */}
-              <img src="public/logo.png" alt="ShopMax Logo" className="h-8 w-8" />
+              <img src="logo.png" alt="ShopMax Logo" className="h-8 w-8" />
               <span>ShopMax</span>
             </Link>
             <p className="text-sm text-secondary-foreground/70 mb-6 leading-relaxed">

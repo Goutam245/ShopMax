@@ -32,7 +32,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 text-primary font-extrabold text-2xl">
-            {/* <ShoppingBag className="h-7 w-7" /> */} <img src="public/logo.png" alt="ShopMax Logo" className="h-8 w-8" />
+            {/* <ShoppingBag className="h-7 w-7" /> */} <img src="logo.png" alt="ShopMax Logo" className="h-8 w-8" />
             <span>ShopMax</span>
           </Link>
 
